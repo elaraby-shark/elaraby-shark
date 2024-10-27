@@ -1,0 +1,98 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+.navbar{
+    background-color: #eee;
+    box-shadow: 2px 2px 2px #777; 
+}
+.navbar img{
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px #777;
+    transition: filter 0.3s ease;
+}
+.navbar img:hover{
+    filter: brightness(0.7);
+}
+.navbar .nav-link{
+    color: #3A3F58;
+    font-size: 18px;
+    transition: all ease-in-out 0.3s;
+}
+.navbar .nav-link:hover{
+    color: #d2a719;
+}
+.navbar .active{
+    color: #d2a719 !important;
+    font-size: 18px !important;
+}
+.contact i{
+    color: #3A3F58;
+    font-size: 18px;
+    padding-left: 7px;
+    transition: all ease-in-out 0.3s;
+}
+.contact i:hover{
+    color: #d2a719;
+}
+.carousel-item img{
+    filter: brightness(0.4);
+}
+.carousel-caption h5{
+    font-size: 48px;
+    font-weight: 600;
+    transition: all ease-in-out 0.3;
+}
+.carousel-caption h5:hover{
+    color: #d2a719;
+}
+.about img, .why img, .service img{
+   width: 90%;
+   height: 100%;
+   border-radius: 6px;
+   filter: brightness(0.5);
+}
+
+.about h2, .why h2, .service h2{
+    font-weight: 600;
+    transition: all ease-in-out 0.3s;
+}
+.about h2:hover, .why h2:hover, .service h2:hover{
+    color: #d2a719;
+}
+.about p, .why p, .service p{
+    line-height: 2;
+    color: #555;
+}
+.about p span, .service p span{
+    color: #000;
+    font-weight: bold;
+    padding: 0px 10px;
+    transition: all ease-in-out 0.3s;
+}
+.about p span:hover, .service p span:hover{
+    color: #d2a719;
+}
+.why h5, .service h5{
+    font-size: 23px;
+    font-weight: 600;
+    transition: all ease-in-out 0.3s;
+}
+.why h5:hover, .service h5:hover{
+    color: #d2a719;
+}
+.lets span{
+    font-size: 23px;
+    font-weight: 600;
+    transition: all ease-in-out 0.3s;
+}
+.lets span:hover{
+    color: #d2a719;
+}
+.service{
+
+}
+.service ul li{
+    padding: 6px;
+}
